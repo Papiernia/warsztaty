@@ -1,0 +1,70 @@
+form {
+    background-color: #213b50;
+    width: 500px;
+    padding: 20px;
+    color: #ffff;
+}
+
+/*sciskanie do srodka tekstu padding*/
+
+/*zeby pola wskoczyly pod label*/
+form label {
+    display: block;
+}
+
+/*zeby wydluzyc marginesy*/
+form input,
+select {
+    margin-bottom: 10px
+}
+
+/*form*/
+form input[type="text"],
+input[type="tel"],
+input[type="email"],
+select,
+textarea {
+    width: 300 px;
+    background-color: #2b4a64;
+    border: 1px solid transparent;
+    color: #fff;
+    outline: none;
+    height: 25px;
+}
+
+form textarea {
+    height: 100px;
+}
+
+form input[type="text"]:focus,
+forum input[type="tel"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    background-color: #4e788c;
+    border: 1px solid #fff;
+}
+
+form input[type="radio"],
+input[type="checbox"] {
+    float: left;
+}
+
+form input[type="submit"] {
+    background-color: green;
+    color: #fff;
+    border: 1px solid green;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+/*    cursor: pointer; dodaje lape*/
+    cursor:pointer;
+    
+}
+
+form input[type="submit"]:hover {
+    background-color: #fff;
+    color: green;
+    transition: all 0.5s;
+}
+
+
